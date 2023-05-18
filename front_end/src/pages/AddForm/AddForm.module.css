@@ -1,0 +1,47 @@
+.container {
+	max-width: 400px;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--outer-background-color);
+	padding: 1rem;
+	border-radius: 15px;
+}
+
+.formContainer {
+	padding: 1rem;
+	background-color: var(--inner-background-color);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+	border-radius: 15px;
+}
+
+.msgContainer {
+	width: 100%;
+	height: 2rem;
+	background-color: var(--message-box-background-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+
+.successMsg {
+	color: var(--success-color);
+}
+
+.errorMsg {
+	color: var(--error-color);
+}
+
+.pendingMsg {
+	color: var(--loading-color);
+}
+
+.title {
+	margin: 0;
+	text-transform: uppercase;
+	text-decoration: underline wavy;
+	pointer-events: none;
+}

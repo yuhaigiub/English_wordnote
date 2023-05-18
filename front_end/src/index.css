@@ -1,0 +1,37 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+
+	--table-template: 1fr 2fr 5fr;
+	--inner-background-color: #fef9ef;
+	--outer-background-color: #f20089d9;
+	--button-background-color: #ff166b;
+	--button-text-color: #fff;
+	--input-field-background-color: #ffcb77;
+	--error-message-color: #ff0000;
+	--table-header-background-color: #b53370;
+	--table-background-color-1: #ff70a6;
+	--table-background-color-2: #fcd5ce;
+	--message-box-background-color: #49111c;
+	--loading-color: #fff;
+	--error-color: #f00;
+	--success-color: #89fc00;
+}
+
+body {
+	position: relative;
+	background-color: #2e254d;
+	margin: 0;
+	padding-inline: 2rem;
+}
+
+textarea {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}

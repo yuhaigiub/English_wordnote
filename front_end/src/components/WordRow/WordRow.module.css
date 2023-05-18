@@ -1,0 +1,25 @@
+.container {
+	display: grid;
+	grid-template-columns: var(--table-template);
+	align-items: center;
+	gap: 1rem;
+	padding: 0.5em;
+	cursor: pointer;
+}
+
+.container > div {
+	text-align: center;
+}
+
+.container div:first-child {
+	color: #264653;
+	font-weight: 700;
+}
+
+.container:hover div:first-child {
+	color: rgb(0, 0, 255);
+}
+
+.container:hover {
+	filter: contrast(0.9);
+}

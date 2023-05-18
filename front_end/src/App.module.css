@@ -1,0 +1,19 @@
+.container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	gap: 2rem;
+	padding-top: 2rem;
+}
+
+.left {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.right {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}

@@ -1,0 +1,36 @@
+.buttonContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 1em;
+}
+
+.buttonContainer button {
+	padding: 0.25em 3em;
+}
+
+.label {
+	height: 3rem;
+	overflow: hidden;
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+.meaningContainer {
+	border-radius: 8px;
+	overflow: hidden;
+	background-color: rgba(128, 128, 128, 0.235);
+}
+
+.meaningContainer > div {
+	padding: 0.5rem;
+	display: grid;
+	background-color: var(--table-background-color-2);
+	grid-template-columns: 1fr 2fr 1fr;
+	cursor: pointer;
+}
+
+.meaningContainer > div:nth-child(2n) {
+	background-color: var(--table-background-color-1);
+}

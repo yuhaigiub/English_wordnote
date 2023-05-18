@@ -1,0 +1,46 @@
+.container {
+	width: 100%;
+}
+
+.container > div:nth-child(2n-1) {
+	background-color: var(--table-background-color-2);
+}
+
+.container > div:nth-child(2n) {
+	background-color: var(--table-background-color-1);
+}
+
+/* header */
+.header {
+	font-weight: 700;
+	display: grid;
+	display: grid;
+	grid-template-columns: var(--table-template);
+	gap: 1rem;
+	border-radius: 15px 15px 0 0;
+	pointer-events: none;
+}
+
+.header > * {
+	text-align: center;
+}
+
+.container > div:last-child {
+	border-radius: 0 0 15px 15px;
+}
+
+.container > div:first-child,
+.container > div:last-child {
+	color: #efebce;
+	height: 1.5rem;
+	padding: 0.5rem;
+	background-color: var(--table-header-background-color);
+}
+
+.loadingMsg {
+	color: var(--loading-color);
+}
+
+.errorMsg {
+	color: var(--error-color);
+}
